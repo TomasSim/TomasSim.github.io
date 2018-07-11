@@ -1,14 +1,452 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Devlogger</title>
-  <base href="/">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tomas Portfolio</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" href="build/images/brackets.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <!--        <link rel="stylesheet" href="src/css/bootstrap-theme.min.css">-->
+
+
+    <!--For Plugins external css-->
+    <link rel="stylesheet" href="src/css/plugins.css"/>
+    <link rel="stylesheet" href="src/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="src/css/nexa-web-font.css"/>
+    <link rel="stylesheet" href="src/css/opensans-web-font.css"/>
+
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <!--Theme Responsive css-->
+    <link rel="stylesheet" href="src/css/responsive.css"/>
+
+    <link rel="stylesheet" href="build/style/style.min.css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+
 </head>
 <body>
-  <app-root></app-root>
-<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="scripts.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
-</html>
+
+<div class='preloader'>
+    <div class='loaded'>&nbsp;</div>
+</div>
+
+<div id="app">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a class="header-a" href="#home">Home
+                        <span class="hoverA"></span>
+                        <span class="hoverB"></span>
+                        <span class="hoverC"></span>
+                        <span class="hoverD"></span>
+                    </a></li>
+                    <li><a class="header-a" href="#about">About Me
+                        <span class="hoverA"></span>
+                        <span class="hoverB"></span>
+                        <span class="hoverC"></span>
+                        <span class="hoverD"></span>
+                    </a></li>
+                    <li><a class="header-a" href="#skills">Skills
+                        <span class="hoverA"></span>
+                        <span class="hoverB"></span>
+                        <span class="hoverC"></span>
+                        <span class="hoverD"></span>
+                    </a></li>
+                    <li><a class="header-a" href="#portfolio">Projects
+                        <span class="hoverA"></span>
+                        <span class="hoverB"></span>
+                        <span class="hoverC"></span>
+                        <span class="hoverD"></span>
+                    </a></li>
+                    <li><a class="header-a" href="#contact">Contact
+                        <span class="hoverA"></span>
+                        <span class="hoverB"></span>
+                        <span class="hoverC"></span>
+                        <span class="hoverD"></span>
+                    </a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <!--Home page style-->
+    <header id="home" class="home">
+        <div class="overlay sections">
+            <div class="container">
+
+                <div class="row">
+                    <div class="wrapper">
+                        <div class="col-md-8 col-md-offset-2">
+
+                            <div class="home-details text-center">
+
+                                <div class="logo noHover">
+                                    <img src="build/images/logo.png" alt="Logo Image"/>
+                                </div>
+
+                                <div class="home-title">
+                                    <ul class="title-list noHover">
+                                        <li class="b">T</li>
+                                        <li class="b">O</li>
+                                        <li class="b">M</li>
+                                        <li class="b">A</li>
+                                        <li class="b">S</li>
+                                        <li>PORTFOLIO</li>
+                                    </ul>
+                                </div>
+
+                                <div class="scroll-down">
+                                    <a href="#about"><i class="fa fa-angle-double-down"></i></a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about sections">
+        <div class="container">
+
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="wrapper">
+
+                    <div class="col-lg-4 col-lg-offset-2 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                        <div class="about-photo">
+                            <img src="build/images/profile-picture.jpg" alt="About Image"/>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                        <div class="heading about-content">
+                            <h3>About Me</h3>
+                            <p>My name is Tomas, currently I'm 4th course "Informational systems engineering" student at
+                                Vilnius Gediminas Technical University.
+                                After second university year I started to learn web-development on my own. At first I
+                                was doing really basic jobs. Later as I was progressing
+                                I took part-time practise in a company for five months.</p>
+                            <p>And now I'm looking for a font-end web-developer job, and I'm ready to keep learning
+                                more.</p>
+                            <div class="signature">
+                                <p class="signature">Tomas Simanaitis</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills" class="portfolio">
+        <div class="overlay sections skills-section">
+            <div class="container skills-container">
+
+                <div class="heading text-center">
+                    <div class="title">
+                        <h3>Skills</h3>
+                    </div>
+                </div>
+
+                <!-- Example row of columns -->
+
+                <div class="row skills-holder">
+
+                    <div class="skill-left clearfix">
+                        <div class="skill-div">
+                            HTML
+                        </div>
+
+                        <div class="skill-div">
+                            CSS
+                        </div>
+
+                        <div class="skill-div">
+                            SCSS
+                        </div>
+
+                        <div class="skill-div">
+                            JQUERY
+                        </div>
+
+                        <div class="skill-div">
+                            VUE
+                        </div>
+
+                        <div class="skill-div">
+                            GULP
+                        </div>
+
+                    </div>
+
+                    <div class="skill-right clearfix">
+
+                        <div class="skill-div">
+                            JAVASCRIPT
+                        </div>
+
+                        <div class="skill-div">
+                            BOOTSTRAP
+                        </div>
+
+                        <div class="skill-div">
+                            WORDPRESS
+                        </div>
+
+                        <div class="skill-div">
+                            NPM
+                        </div>
+
+                        <div class="skill-div">
+                            PS
+                        </div>
+
+                        <div class="skill-div">
+                            GIT
+                        </div>
+                    </div>
+
+                </div>
+            </div> <!-- /container -->
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="overlay sections">
+            <div class="container">
+
+                <div class="heading text-center">
+                    <div class="title">
+                        <h3>Some Projects</h3>
+                    </div>
+                </div>
+
+                <!-- Example row of columns -->
+
+                <div class="portfolio-wrapper">
+
+                    <div class="project col-md-4 col-sm-6">
+
+                        <div class="portfolio-details">
+                            <div class="project-img-holder">
+                                <div class="project-img one"/></div>
+                            </div>
+                            <a class="hover" href="projects/simplika/index.html" target="_blank">
+                                <p>Keisk žaidimo taisykles</p>
+                                <p>HTML / SCSS / VUE</p>
+
+                                <!--   <span>click for website</span> -->
+                            </a>
+                        </div>
+
+                </div>
+
+                <div class="project col-md-4 col-sm-6">
+
+                    <div class="portfolio-details">
+                        <div class="project-img-holder">
+                            <div class="project-img two"/></div>
+                        </div>
+                        <a class="hover" href="http://pasibelsk.lt/" target="_blank">
+                            <p>Pasibelsk</p>
+                            <p>WORDPRESS</p>
+
+
+                            <!--   <span>click for website</span> -->
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="project col-md-4 col-sm-6">
+
+                    <div class="portfolio-details">
+                        <div class="project-img-holder">
+                            <div class="project-img three"/></div>
+                        </div>
+                        <a class="hover" href="projects/testinis-mokymas/index.html" target="_blank">
+                            <p>Testinis mokymas</p>
+                            <p>HTML / SCSS / JQUERY</p>
+
+
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="project col-md-4 col-sm-6">
+
+                    <div class="portfolio-details">
+                        <div class="project-img-holder">
+                            <div class="project-img four"/></div>
+                        </div>
+                        <a class="hover" href="https://t2r.jobrely.com/login" target="_blank">
+                            <p>Job Rely</p>
+                            <p>Front-end VUE</p>
+
+
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="project col-md-4 col-sm-6">
+
+                    <div class="portfolio-details">
+                        <div class="project-img-holder">
+                            <div class="project-img five"/></div>
+                        </div>
+                        <a class="hover" href="projects/fake-europa/index.html" target="_blank">
+                            <p>PC Europa - žaidimas</p>
+                            <p>HTML / SCSS / JQUERY</p>
+
+
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="project col-md-4 col-sm-6">
+
+                    <div class="portfolio-details">
+                        <div class="project-img-holder">
+                            <div class="project-img six"/></div>
+                        </div>
+                        <a class="hover" href="https://www.atsiliepimai.lt/" target="_blank">
+                            <p>Atsiliepimai</p>
+                            <p>HTML / SCSS / SOME JS</p>
+
+
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="scroll-down scroll-down-absolute">
+                    <a href="#contact"><i class="fa fa-angle-double-down"></i></a>
+                </div>
+
+            </div>
+        </div> <!-- /container -->
+</div>
+</section>
+
+
+<section id="contact" class="contact sections">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="contact-details text-center">
+
+                    <div class="contact-category">
+                        <div class="mail">
+                            <h4>Email :</h4>
+                            <h2>simanaitis.tomas@gmail.com</h2>
+                        </div>
+                    </div>
+
+                    <div class="contact-category">
+                        <div class="phone">
+                            <h4>Phone :</h4>
+                            <h5>+370 67878 367</h5>
+                        </div>
+                    </div>
+
+                    <div class="contact-category">
+                        <h4>Contact me :</h4>
+                        <div class="contact-form">
+                            <div class="input-holder left">
+                                <label for="name"
+                                       :class="{'is-danger': errors.has('name') }">Name :</label>
+                                <input type="text" name="name" id="name" v-model="name" v-validate="'required'"
+                                       :class="{'is-danger': errors.has('name') }">
+                                <span v-show="errors.has('name')"
+                                      class="help is-danger">{{ errors.first('name') }}</span>
+                            </div>
+
+                            <div class="input-holder right">
+                                <label for="_replyto"
+                                       :class="{'is-danger': errors.has('_replyto') }">Email :</label>
+                                <input type="email" name="_replyto" id="email" v-model="email"
+                                       v-validate="'required|email'"
+                                       :class="{'is-danger': errors.has('_replyto') }">
+                                <span v-show="errors.has('_replyto')" class="help is-danger">{{ errors.first('_replyto') }}</span>
+                            </div>
+                            <textarea name="message" id="message" cols="30" rows="10" v-model="message"
+                                      v-validate="'required'"
+                                      :class="{'is-danger': errors.has('message') }"></textarea>
+                            <span v-show="errors.has('message')"
+                                  class="help is-danger">{{ errors.first('message') }}</span>
+
+                            <div class="button-holder">
+                                <button class="send-email btn" id="sendEmail" @click="sendEmail($event)">SEND</button>
+                            </div>
+                            <div>
+                                <p class="success-message" id="success-message">{{ success }}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="contact-category">
+                         <div class="social">
+                             <h4>Social Media :</h4>
+                             <a href="#"><i class="fa fa-facebook"></i></a>
+                             <a href="#"><i class="fa fa-twitter"></i></a>
+                             <a href="#"><i class="fa fa-instagram"></i></a>
+                         </div>
+                     </div> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Footer-->
+<footer id="footer" class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="copyright text-center">
+                    <p>2017</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+<script src="src/js/vendor/jquery-1.11.2.min.js"></script>
+<script src="src/js/vendor/jquery.waypoints.min.js"></script>
+<script src="src/js/vendor/bootstrap.min.js"></script>
+<script src="/build/js/build.js"></script>
+
+<script src="build/js/main.min.js"></script>
+</body>
