@@ -1,0 +1,56 @@
+.icon-america-express {
+  display: inline-block;
+  background-image: url(../img/payments.png);
+  background-position: 0px 0px;
+  width: 48px;
+  height: 30px;
+}
+.icon-discover {
+  display: inline-block;
+  background-image: url(../img/payments.png);
+  background-position: -49px 0px;
+  width: 48px;
+  height: 30px;
+}
+.icon-jcb {
+  display: inline-block;
+  background-image: url(../img/payments.png);
+  background-position: 0px -31px;
+  width: 48px;
+  height: 30px;
+}
+.icon-maestro {
+  display: inline-block;
+  background-image: url(../img/payments.png);
+  background-position: -49px -31px;
+  width: 48px;
+  height: 30px;
+}
+.icon-mastercard {
+  display: inline-block;
+  background-image: url(../img/payments.png);
+  background-position: 0px -62px;
+  width: 48px;
+  height: 30px;
+}
+.icon-mh {
+  display: inline-block;
+  background-image: url(../img/payments.png);
+  background-position: -49px -62px;
+  width: 48px;
+  height: 30px;
+}
+.icon-paypal {
+  display: inline-block;
+  background-image: url(../img/payments.png);
+  background-position: -98px 0px;
+  width: 48px;
+  height: 30px;
+}
+.icon-visa {
+  display: inline-block;
+  background-image: url(../img/payments.png);
+  background-position: -98px -31px;
+  width: 48px;
+  height: 30px;
+}

@@ -1,0 +1,105 @@
+@media screen and (max-width: 1200px){
+  .about-photo{
+    margin-top: 0px;
+  }
+  .skill-div{
+    font-size:  30px;
+  }
+}
+@media screen and (max-width: 991px){
+  .portfolio-wrapper{
+    min-height: 1100px;
+  }
+  .skill-div{
+    width: calc(100% - 65px);
+  }
+  .skills-section{
+    min-height: 1100px;
+  }
+}
+@media screen and (max-width: 767px){
+  .contact-details .contact-category .mail h2{
+    font-size:30px;
+    font-family:'nexa_lightregular';
+  }
+  .contact-details .contact-category .phone h5{
+    font-size:30px;
+    font-family:'nexa_lightregular';
+  }
+  .portfolio-wrapper{
+    min-height: 2100px;
+  }
+  .skill-div{
+    width: calc( 100% - 65px);
+  }
+  .heading p{
+    font-size: 16px;
+  }
+  .about-content .signature{
+    font-size: 25px;
+  }
+  .about-photo{
+    margin-bottom: 30px;
+  }
+  .navbar-header{
+    background-color: black;
+  }
+  .navbar-toggle{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 2px;
+  }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:hover{
+    background-color: black;
+  }
+  .navbar-default .navbar-toggle .icon-bar{
+    background-color: white;
+  }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    background-color: black;
+  }
+}
+@media screen and (max-width: 500px){
+  .success-message{
+    line-height: 30px;
+  }
+  .input-holder {
+    width: 100%;
+    float: left;
+    text-align: left;
+  }
+  .input-holder.left {
+    margin-right: 0px;
+  }
+  .input-holder.right {
+    margin-left: 0px;
+  }
+  .contact-details .contact-category .mail h2{
+    font-size:18px;
+    font-family:'nexa_lightregular';
+  }
+  .contact-details .contact-category .phone h5{
+    font-size:18px;
+    font-family:'nexa_lightregular';
+  }
+  .hover p{
+    line-height: 1em;
+  }
+  .skill-div{
+    width: calc( 100% - 65px);
+  }
+  .skill-left, .skill-right{
+    width: 100%;
+  }
+  .skill-right{
+    top: 950px;
+  }
+  .skills-section{
+    min-height: 2050px;
+  }
+}
+@media screen and (max-width: 420px){
+  .home-details .home-title ul li{
+    font-size: 35px;
+  }
+}
