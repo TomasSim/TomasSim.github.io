@@ -273,7 +273,7 @@ input.is-danger {
   background: url("../../build/images/portfolio/p6.png"); }
 
 .about-photo {
-  margin-top: 20px; }
+  margin-top: 120px; }
 
 @media screen and (max-width: 1200px) {
   .about-photo {

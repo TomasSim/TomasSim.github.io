@@ -29,10 +29,15 @@ const app = new Vue({
                     this.success = 'Sending';
                     e.target.setAttribute('disabled', true);
 
-                    this.axios.post('https://formspree.io/' + this.myEmail, {
-                        name: this.name,
-                        email: this.email,
-                        message: this.message
+                    this.axios.post('https://api.emailjs.com/api/v1.0/email/send', {
+                        service_id: 'gmail',
+                        template_id: 'template_rKbrblml',
+                        user_id: 'user_L0A0uo6JhUVNveYHs7OXn',
+                        template_params: {
+                            'from_name': this.name,
+                            'from_email': this.email,
+                            'message_html': this.message
+                        }
                     }).then(() => {
                        this.success = 'Thank You for your message!';
                         e.target.removeAttribute('disabled');
